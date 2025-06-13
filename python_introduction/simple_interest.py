@@ -1,8 +1,8 @@
 # simple_interest.py
-principal = 1000 
-rate = 5
-time = 3
+P= 1000 # principal with a value of 1000 (representing $1000),
+R = 5 # rate with a value of 5 (representing 5%),
+T = 3 # time with a value of 3 (representing 3 years),
 # calculate simple interest
-interest = (principal * rate * time) / 100
+interest = (P * R * T) / 100
 # print the rusult
 print(f"simple interest: {interest}")
