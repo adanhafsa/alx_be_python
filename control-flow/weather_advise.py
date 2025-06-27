@@ -1,8 +1,8 @@
-# prompt the user for weather input 
-weather = (input("What's the weather like today? (sunny/rainy/cold):")). lower()
+# weather recommendation program
 
-# Check the user's input and provide appropriate recommendations
-if weather == "sunny": 
+# prompt the user for weather input
+weather = str(input("What's the weather like today? (sunny/rainy/cold):"))
+if weather == "sunny":
     print(" Wear a t-shirt and sunglasses.")
 elif weather == "rainy":
     print("Don't forget your umbrella and a raincoat.")
