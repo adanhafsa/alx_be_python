@@ -1,7 +1,6 @@
 # Personal Daily Reminder
 
 # prompt the user to input a task description and save it into a task variable
-# Input collection with loops
 task = input("Enter your task: ")
 
 while True:
@@ -30,4 +29,3 @@ else:
     full_msg = f"Note: {base_msg}. Consider completing it when you have free time."
 
 print(full_msg)
-        
