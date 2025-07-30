@@ -24,8 +24,8 @@ match priority:
 
 # Adjust for time sensitivity
 if time_bound == "yes":
-    full_msg = f"Reminder: {base_msg} that requires immediate attention today!"
+    full_msg = f" Reminder: {base_msg} that requires immediate attention today!"
 else:
-    full_msg = f"Note: {base_msg}. Consider completing it when you have free time."
+    full_msg = f" Note: {base_msg}. Consider completing it when you have free time."
 
-print(full_msg)
+print( full_msg)
